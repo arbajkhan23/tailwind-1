@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.team {
+  background: linear-gradient(
+    348deg,
+    #5239fa 17.97%,
+    rgba(255, 255, 255, 0) 79.2%
+  );
+}
+.main-wrapper {
+  max-width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+@media (min-width: 640px) {
+  .main-wrapper {
+    max-width: 640px;
+    padding: 0 30px;
+  }
+}
+@media (min-width: 768px) {
+  .main-wrapper {
+    max-width: 768px;
+    padding: 0 30px;
+  }
+}
+@media (min-width: 1024px) {
+  .main-wrapper {
+    max-width: 1024px;
+    padding: 0 60px;
+  }
+}
+@media (min-width: 1280px) {
+  .main-wrapper {
+    max-width: 1280px;
+    padding: 0 80px;
+  }
+}
